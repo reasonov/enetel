@@ -220,8 +220,9 @@ export default {
 <style scoped>
 
 .ranking-page {
-  max-width: 1200px;
+  max-width: 1170px;
   padding: 45px 30px 80px 30px;
+  box-sizing: border-box;
 }
 
 .ranking__header {

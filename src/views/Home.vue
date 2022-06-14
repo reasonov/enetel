@@ -167,6 +167,18 @@ export default {
   padding: 40px 30px 80px 30px;
 }
 
+<<<<<<< HEAD
+=======
+.blue {
+  font-size: 14px;
+  color: #726FF4;
+}
+
+.orange {
+  color: #EF7957;
+}
+
+>>>>>>> 9b3dd2b2cdb52e4b30dc706dffac59c5ad15eec7
 .records {
   margin-bottom: 30px;
 }
@@ -347,5 +359,14 @@ export default {
 
 .comments__item2 {
   margin-left: 30px;
+}
+
+.blue {
+  font-size: 14px;
+  color: #726FF4;
+}
+
+.orange {
+  color: #EF7957;
 }
 </style>

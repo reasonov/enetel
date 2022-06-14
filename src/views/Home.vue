@@ -44,7 +44,7 @@
           <p class="ranking__subtitle subtitle">Ваше место среди мастеров по бровям</p>
           <p class="ranking__stat stat">16</p>
         </div>
-        <a href="/" class="ranking__article">Как поднять свое место в рейтинге?</a>
+        <a href="/" class="ranking__article article--link">Как поднять свое место в рейтинге?</a>
         <button class="ranking__link link--second">Купить платное продвижение</button>
       </div>
     </div>
@@ -100,7 +100,7 @@
       <h2 class="comments__title title">Отзывы</h2>
       <div class="comments__header">
         <p class="comments__subtitle">Последний отзыв</p>
-        <a href="/" class="comments__link">Все отзывы</a>
+        <a href="/" class="comments__link article--link">Все отзывы</a>
       </div>
       <div class="comments__wrapper wrapper">
         <article class="comments__item block--big">
@@ -167,95 +167,6 @@ export default {
   padding: 40px 30px 80px 30px;
 }
 
-.section {
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  border-bottom: 1px solid #E0E0E0;
-}
-
-.wrapper {
-  display: flex;
-}
-
-.title {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 30px;
-}
-
-.subtitle {
-  margin-bottom: 5px;
-
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-}
-
-.block--first {
-  width: 230px;
-  border-right: 1px solid #E0E0E0;
-}
-
-.block--second {
-  margin-left: 30px;
-}
-
-.block--big {
-  min-width: 570px;
-  max-width: 570px;
-  margin-right: 30px;
-  border-right: 1px solid #E0E0E0;
-}
-
-.stat {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 42px;
-}
-
-.link--main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 45px;
-  padding: 0 25px;
-
-  border: 1px solid #EF7957;
-  border-radius: 10px;
-
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  color: #EF7957;
-}
-
-.link--second {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 45px;
-  padding: 0 25px;
-  border-radius: 10px;
-
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  color: #fff;
-
-  background-color: #EF7957;
-}
-
-.blue {
-  font-size: 14px;
-  color: #726FF4;
-}
-
-.orange {
-  color: #EF7957;
-}
-
 .records {
   margin-bottom: 30px;
 }
@@ -295,12 +206,6 @@ export default {
 .ranking__article {
   max-width: 170px;
   margin-left: 50px;
-
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 18px;
-  text-decoration-line: underline;
-  color: #EF7957;
 }
 
 .ranking__link {
@@ -410,10 +315,7 @@ export default {
 
 .comments__link {
   font-size: 16px;
-  font-weight: 700;
   line-height: 20px;
-  text-decoration-line: underline;
-  color: #EF7957;
 }
 
 .comments__wrapper {
